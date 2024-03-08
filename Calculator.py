@@ -1,7 +1,7 @@
 from tkinter import *  
 root =Tk()
 root.title ("simple calucluator")
-e = Entry(width=35,borderwidth=5,fg="blue",bg="white") 
+e = Entry(width=35,borderwidth=5,fg="red",bg="white") 
 e.grid(row=0, column=0, columnspan=3)
 
 def ButtonClick(number):
